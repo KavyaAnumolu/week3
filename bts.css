@@ -1,0 +1,40 @@
+.form-group {
+    display: block;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+input[type=text],
+select {
+    width: 57%;
+    padding: 12px 20px;
+    margin: 7px 42px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: -2px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.span-for-errors {
+    color: red;
+}
+
+#errorMessageForFirstName {
+    color: red;
+}
+
+#errorMessageForFullName {
+    color: red;
+}
